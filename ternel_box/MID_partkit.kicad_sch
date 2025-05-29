@@ -1,0 +1,10144 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2f8a3cd0-0db1-4cdd-89cd-07ef62b0efee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "self_no_source:0603R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0603R"
+				(at -3.175 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "self-mod:0603_R"
+				(at -18.415 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+				(at -18.415 -6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603R_1_1"
+				(rectangle
+					(start -2.54 -1.016)
+					(end 2.54 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 276.86 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0094b118-2385-4a69-aebe-7b75ad26122c")
+	)
+	(junction
+		(at 55.88 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "074d2eb6-a1bf-4be5-89dd-3cb854beba0f")
+	)
+	(junction
+		(at 55.88 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af3edb2-cb51-4381-8d57-1de53e411ba6")
+	)
+	(junction
+		(at 46.99 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dbe37e6-7b66-4467-8f21-9975fbf193dd")
+	)
+	(junction
+		(at 120.65 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0feab3df-d58a-41de-ad4a-4b1f504b0336")
+	)
+	(junction
+		(at 276.86 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1729cf45-5b92-4c2d-8338-698bbb6b6004")
+	)
+	(junction
+		(at 190.5 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d617599-6396-4111-94be-79dd605bde95")
+	)
+	(junction
+		(at 46.99 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24fdd338-c77c-42b5-ac0b-0e1ea024c173")
+	)
+	(junction
+		(at 55.88 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4abdab01-5365-48ed-81fd-de4e2b2112bc")
+	)
+	(junction
+		(at 48.26 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aed9aab-f3ef-4020-886f-0c0b80c0db43")
+	)
+	(junction
+		(at 120.65 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67dd8d98-c1bc-4c55-8644-c659bc16181f")
+	)
+	(junction
+		(at 242.57 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6823fe2c-37a2-42d6-b17a-a8f196f9a18d")
+	)
+	(junction
+		(at 55.88 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70d09c76-71cc-4ca9-a8bc-bf1133976210")
+	)
+	(junction
+		(at 143.51 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aca18c9-5c30-40be-a364-ce887267f6d8")
+	)
+	(junction
+		(at 236.22 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "808b53a5-90fe-4c42-a378-baa4f16d2d28")
+	)
+	(junction
+		(at 121.92 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8587b13e-bfff-4543-8800-d67d335b6411")
+	)
+	(junction
+		(at 190.5 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "865e3f33-241d-41ca-8ee3-32065fa8a3ed")
+	)
+	(junction
+		(at 274.32 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e238e8c-030e-4182-ac7b-0ab1db800471")
+	)
+	(junction
+		(at 88.9 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f81e39a-09be-4645-83c4-f684eb4da71a")
+	)
+	(junction
+		(at 55.88 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a64df849-9ab9-4bba-a736-46eb990307fb")
+	)
+	(junction
+		(at 177.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad4add28-7f9c-4c57-993a-3c5f6a5a29c8")
+	)
+	(junction
+		(at 242.57 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aead8265-5b1e-40b3-b18c-35a48cf3dd18")
+	)
+	(junction
+		(at 55.88 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b31608cb-5586-4fde-b3c3-8336491730fb")
+	)
+	(junction
+		(at 143.51 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6bf0fc0-7ac3-4df9-8a8c-d8b00fa3f37c")
+	)
+	(junction
+		(at 237.49 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3dfe59e-2b45-46ad-a1d9-d87608933a0a")
+	)
+	(junction
+		(at 46.99 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce38d69f-3336-4cf1-aa5a-5e896339908b")
+	)
+	(junction
+		(at 190.5 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dde27849-9f3a-4d9c-9a35-9500be1383e5")
+	)
+	(junction
+		(at 199.39 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de7c985d-3105-48ed-9d44-4284f50d9a82")
+	)
+	(junction
+		(at 190.5 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e9818e-a941-4797-b430-9dc228bfd526")
+	)
+	(junction
+		(at 88.9 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eec1f93c-95b1-4254-ade7-38a7af6ac9f4")
+	)
+	(junction
+		(at 199.39 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b642b6-20c8-4882-b6e5-0abe2ddf6bd0")
+	)
+	(no_connect
+		(at 162.56 130.81)
+		(uuid "41502619-eea6-451e-954a-090b9a9aec5a")
+	)
+	(no_connect
+		(at 162.56 119.38)
+		(uuid "f4c079ed-40a2-4c56-bbb3-092f8a62e7d9")
+	)
+	(wire
+		(pts
+			(xy 88.9 66.04) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0006d94d-964d-4155-8df6-d29b1fff4dbc")
+	)
+	(wire
+		(pts
+			(xy 220.98 68.58) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02de6a4b-a8f8-4a24-baca-7b1ccfd2e5b9")
+	)
+	(polyline
+		(pts
+			(xy 165.1 40.64) (xy 284.48 40.64)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "05e83f25-5bad-4ff2-9132-3f7e0a51b687")
+	)
+	(wire
+		(pts
+			(xy 213.36 53.34) (xy 218.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "069181c3-32bc-4e7a-b4ab-653f7ccd5596")
+	)
+	(wire
+		(pts
+			(xy 276.86 57.15) (xy 275.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092d413c-500f-45d1-ad09-0fdd94aed779")
+	)
+	(wire
+		(pts
+			(xy 46.99 93.98) (xy 46.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ac7e3f-b22d-44ae-8d47-c45eb33ffb3e")
+	)
+	(wire
+		(pts
+			(xy 48.26 177.8) (xy 55.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aee23ab-ab2e-4230-b193-00b292df9ae8")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b40f88b-75b8-41c0-9adc-956f1b3e1ed9")
+	)
+	(wire
+		(pts
+			(xy 55.88 124.46) (xy 53.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb8d429-0e94-45a7-ad31-409a77bbca62")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 172.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c565cc2-63d2-4006-9d57-23159eaa0de5")
+	)
+	(wire
+		(pts
+			(xy 30.48 50.8) (xy 34.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8e8d86-7773-4933-ae3a-9e2730b1c31b")
+	)
+	(wire
+		(pts
+			(xy 276.86 71.12) (xy 276.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ffc737-8643-441d-aecc-c14226b9ee68")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a960f2-a5ee-4307-9cc3-5c5c54f42c4f")
+	)
+	(wire
+		(pts
+			(xy 228.6 53.34) (xy 236.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f80044-e779-44eb-8574-19af8e0b527a")
+	)
+	(wire
+		(pts
+			(xy 182.88 34.29) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3de55a-faf2-47a2-9113-ff2679898eb7")
+	)
+	(wire
+		(pts
+			(xy 172.72 119.38) (xy 162.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eccc2ff-b9ae-41e3-90dd-49a18261e0ee")
+	)
+	(polyline
+		(pts
+			(xy 203.2 80.01) (xy 285.75 80.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "1f8f9d26-120b-4178-b548-60bc9eeac4dd")
+	)
+	(wire
+		(pts
+			(xy 66.04 30.48) (xy 80.01 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e318f1-8887-41f2-8b28-36a7aee540dd")
+	)
+	(wire
+		(pts
+			(xy 143.51 25.4) (xy 147.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f7da12-10d9-476f-9fbf-9e83c80754a6")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 120.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2497343c-e469-42ed-83c9-daf7fcf91580")
+	)
+	(wire
+		(pts
+			(xy 236.22 57.15) (xy 236.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b58bf0-14d1-4b07-be31-f7b39183bd37")
+	)
+	(wire
+		(pts
+			(xy 39.37 124.46) (xy 43.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27379de8-16b3-47a5-811d-bd21d8a71c30")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 80.01 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ea1e2-82b1-4982-8ca9-07b0d448965a")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28537662-0206-47e4-9292-7269e0a812d7")
+	)
+	(wire
+		(pts
+			(xy 226.06 34.29) (xy 229.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28905aae-7c8e-4fa2-8349-c5685aa3bb87")
+	)
+	(wire
+		(pts
+			(xy 55.88 163.83) (xy 55.88 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7a20f2-3eca-4c17-a5f4-77ba428e092c")
+	)
+	(wire
+		(pts
+			(xy 127 22.86) (xy 130.81 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa66c14-86b5-42fd-8a77-a14fe1630706")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4a1dab-a723-4d6a-9c5d-662b31755685")
+	)
+	(wire
+		(pts
+			(xy 55.88 177.8) (xy 55.88 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba1bbb8-c983-41f8-8427-e032e24c84ea")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6b62df-f6e0-488c-a64e-52f6c401f14d")
+	)
+	(wire
+		(pts
+			(xy 250.19 53.34) (xy 259.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cad7575-6662-4d21-a838-952ac84bae5b")
+	)
+	(wire
+		(pts
+			(xy 182.88 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d517bc1-322d-48e7-9f63-f94f11781a65")
+	)
+	(wire
+		(pts
+			(xy 173.99 97.79) (xy 177.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8392a7-4dbe-4055-bc03-485823f9d5db")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9b0991-845a-4f20-94e9-064db5b1431d")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecc50fb-a5a3-44dd-b6ad-edb281fa15c3")
+	)
+	(wire
+		(pts
+			(xy 48.26 106.68) (xy 48.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed9d88e-3ddb-412f-a775-a2b8164f83d1")
+	)
+	(wire
+		(pts
+			(xy 39.37 189.23) (xy 43.18 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee7411a-913a-4ee3-811a-1870f95e1bd0")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 48.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8a67c6-b1aa-4667-9b6a-663c78a2844e")
+	)
+	(wire
+		(pts
+			(xy 234.95 36.83) (xy 242.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329f7730-c6b3-480b-b63a-7e98e877e2a4")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a1c555-af94-4ae4-b365-0940c1553e4a")
+	)
+	(wire
+		(pts
+			(xy 115.57 38.1) (xy 125.73 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b734e9-32cb-4591-9711-7ba068f8a79e")
+	)
+	(wire
+		(pts
+			(xy 55.88 163.83) (xy 59.69 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34546239-8429-410c-b98f-478e2c04cf41")
+	)
+	(wire
+		(pts
+			(xy 276.86 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3725966a-9ad1-4710-b4f3-6c278a2f6922")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7f4fd6-ba19-409b-bde6-c0d3c6d6c6b0")
+	)
+	(wire
+		(pts
+			(xy 182.88 21.59) (xy 186.69 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aac05db-c437-4d35-9b56-94f4b7ebbae3")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 219.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1955a1-d234-485b-86bf-c4792046014c")
+	)
+	(wire
+		(pts
+			(xy 39.37 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db0fc34-a912-4a72-bf3b-8232ee4aaa37")
+	)
+	(wire
+		(pts
+			(xy 242.57 36.83) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db5c806-d9fe-4c06-a63d-0185bc6cbd4a")
+	)
+	(polyline
+		(pts
+			(xy 165.1 12.7) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "3e5b7cec-c0a4-4ae7-b6a7-e7914a65cce6")
+	)
+	(wire
+		(pts
+			(xy 55.88 138.43) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee2ee2d-cb7d-4eb4-9237-06f7fecebb86")
+	)
+	(wire
+		(pts
+			(xy 274.32 33.02) (xy 274.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef52399-8cb9-448f-9604-bbcead05eda7")
+	)
+	(wire
+		(pts
+			(xy 190.5 87.63) (xy 187.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8dc7da-1be3-49c9-a968-53e227dba2cf")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc3988f-01b9-4994-8a3b-e73c4e926d3c")
+	)
+	(wire
+		(pts
+			(xy 31.75 104.14) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3febebae-3540-4e60-b06c-0f8b2cae79c6")
+	)
+	(wire
+		(pts
+			(xy 39.37 161.29) (xy 43.18 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4058cdf1-7379-41b5-9cab-f542eb3f4df7")
+	)
+	(wire
+		(pts
+			(xy 236.22 50.8) (xy 233.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406f35d6-c433-423b-ad30-35f85a694e6b")
+	)
+	(wire
+		(pts
+			(xy 121.92 59.69) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e39ed9-8728-4f0c-a7b6-136f4b9078d5")
+	)
+	(wire
+		(pts
+			(xy 242.57 21.59) (xy 240.03 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d00702-9cc4-413a-bc78-8edb7b3d9754")
+	)
+	(wire
+		(pts
+			(xy 40.64 106.68) (xy 48.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e3d645-d2f7-4f96-bc2c-659a3ea88af3")
+	)
+	(wire
+		(pts
+			(xy 266.7 29.21) (xy 274.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e1373c-0609-4311-b042-b7d69eb5133e")
+	)
+	(wire
+		(pts
+			(xy 143.51 35.56) (xy 140.97 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48255465-e71d-4974-ab41-7c81d1e654c8")
+	)
+	(wire
+		(pts
+			(xy 29.21 138.43) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4854c6df-b289-4f89-94e3-da294033406a")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48909257-edd5-4c77-822c-258989af45d2")
+	)
+	(wire
+		(pts
+			(xy 105.41 59.69) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499ef0ee-5198-4093-bed0-caf5f66a8562")
+	)
+	(wire
+		(pts
+			(xy 25.4 66.04) (xy 29.21 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a69a6e-85cc-4623-a317-219f8d726547")
+	)
+	(polyline
+		(pts
+			(xy 11.43 114.3) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "4ac55bdc-3fa9-4000-965c-3bfd26aea150")
+	)
+	(wire
+		(pts
+			(xy 55.88 175.26) (xy 53.34 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b73851e-c5cf-415c-a2ff-743f2019beea")
+	)
+	(wire
+		(pts
+			(xy 39.37 135.89) (xy 43.18 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6a0b68-cc7b-4953-a631-187e0cf7c040")
+	)
+	(wire
+		(pts
+			(xy 135.89 25.4) (xy 143.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c87ed90-ba2e-41a9-9a5d-93e409557159")
+	)
+	(wire
+		(pts
+			(xy 237.49 74.93) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4decf337-256d-4b59-804c-b9db112eb2e4")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 102.87 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2a1a89-4810-45d2-8d32-31373edc0db5")
+	)
+	(polyline
+		(pts
+			(xy 143.51 40.64) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "4f2b138e-8a40-430a-9695-5ea9b4a4f147")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 237.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7716a9-d916-467a-8507-12906eb51965")
+	)
+	(wire
+		(pts
+			(xy 242.57 34.29) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502828c2-9158-4a7e-8acc-f72f90efbe7f")
+	)
+	(wire
+		(pts
+			(xy 25.4 22.86) (xy 33.02 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e5616b-b0d4-4ffe-b3f0-0efdb6f01367")
+	)
+	(wire
+		(pts
+			(xy 39.37 148.59) (xy 43.18 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524c1797-dfdd-4895-b64a-b4360e6a2343")
+	)
+	(polyline
+		(pts
+			(xy 203.2 80.01) (xy 203.2 40.64)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "52f32dc1-9d39-4da2-a6cf-bed6286538ea")
+	)
+	(wire
+		(pts
+			(xy 104.14 107.95) (xy 107.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538476e2-a0dc-4bf5-a3d8-4a6270677ff0")
+	)
+	(polyline
+		(pts
+			(xy 12.7 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "56b9680c-97cf-43d5-90c9-a9a1a1ce09c6")
+	)
+	(wire
+		(pts
+			(xy 252.73 29.21) (xy 256.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58851f7c-3468-4af6-a8bc-aaa10c24ae71")
+	)
+	(wire
+		(pts
+			(xy 113.03 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a099d72-06bb-42fe-8474-37a3e9f2e1f2")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 34.29 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b22b010-f61f-48a1-b846-c667a12df709")
+	)
+	(wire
+		(pts
+			(xy 22.86 93.98) (xy 29.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c228e97-c509-4479-a725-a1acec472b5f")
+	)
+	(wire
+		(pts
+			(xy 39.37 66.04) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c6fd19d-2540-4dd4-9908-4428a7f15840")
+	)
+	(wire
+		(pts
+			(xy 25.4 53.34) (xy 29.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee6c741-187f-4bf1-a84d-1195bce4611a")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1dd6dc-24c7-420a-b391-ea5d478e36d1")
+	)
+	(wire
+		(pts
+			(xy 190.5 119.38) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5fee43-ec39-4cff-846f-0c7d9ee62195")
+	)
+	(wire
+		(pts
+			(xy 191.77 24.13) (xy 199.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6277b47c-582c-4324-83ba-339667af74f1")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b5a640-2780-4516-ac80-f19f544f0be8")
+	)
+	(wire
+		(pts
+			(xy 274.32 26.67) (xy 271.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dd5f40-b7b8-4253-a73d-a7c7741e50b4")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "689aa3ed-915f-492b-907b-3ba913c95bcc")
+	)
+	(wire
+		(pts
+			(xy 115.57 25.4) (xy 125.73 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693caaa1-144a-46d5-a50d-b8b26129cd87")
+	)
+	(wire
+		(pts
+			(xy 120.65 107.95) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6974e3de-0bfa-445d-a23c-fec3f27767c1")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699ed0a9-c45a-42e7-866f-90690d11f94b")
+	)
+	(wire
+		(pts
+			(xy 55.88 135.89) (xy 53.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f22b53-02b0-417a-a669-c5e01ecad423")
+	)
+	(wire
+		(pts
+			(xy 67.31 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d67d5e-8e72-40cc-9f8a-641a09b11df8")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74dac0b0-799a-4ea0-b2dc-30d1946233f2")
+	)
+	(wire
+		(pts
+			(xy 100.33 62.23) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753d32a6-4e5d-49d3-bf04-59e4e8527913")
+	)
+	(wire
+		(pts
+			(xy 46.99 93.98) (xy 52.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771ad852-6270-4fb4-805f-8a96bbae06b1")
+	)
+	(wire
+		(pts
+			(xy 143.51 22.86) (xy 140.97 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7788925a-b82d-4b9d-8f7b-44195d675ea8")
+	)
+	(wire
+		(pts
+			(xy 260.35 50.8) (xy 264.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798c3014-24ff-4253-8b32-1d91f470e519")
+	)
+	(wire
+		(pts
+			(xy 127 35.56) (xy 130.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b953dca-a199-4080-addf-d207e647e99f")
+	)
+	(wire
+		(pts
+			(xy 46.99 66.04) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ceabe0e-fea7-4ef3-a98b-a1d0287c2608")
+	)
+	(wire
+		(pts
+			(xy 55.88 161.29) (xy 53.34 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dad6cc5-81dc-4286-8593-6eb6d5a8ad86")
+	)
+	(wire
+		(pts
+			(xy 30.48 91.44) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e94659d-3e47-41ab-a815-7f195d6d671c")
+	)
+	(wire
+		(pts
+			(xy 199.39 34.29) (xy 199.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f14f5e8-c9a0-4e1f-9e19-f5cff3a14a43")
+	)
+	(wire
+		(pts
+			(xy 72.39 50.8) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1b586b-cbbd-4af6-8c8b-be5c56c85890")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 143.51 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f10d38-21e5-4292-9f01-6b43a80d48fa")
+	)
+	(wire
+		(pts
+			(xy 29.21 163.83) (xy 38.1 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86578928-c364-449e-9525-77a71d811e46")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86946303-3f8a-4090-8082-9a5e66f333ed")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 190.5 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cb1a05-0845-43d2-863c-7fd121735a28")
+	)
+	(wire
+		(pts
+			(xy 55.88 191.77) (xy 59.69 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8783255d-95dd-42ed-b265-2bd8169c60d4")
+	)
+	(wire
+		(pts
+			(xy 190.5 128.27) (xy 187.96 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88db1b0b-a1c5-47fc-a2ac-9f39431c7e53")
+	)
+	(wire
+		(pts
+			(xy 48.26 151.13) (xy 55.88 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890a67fd-87a9-4e63-bf1b-3f8b5c0c384f")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5a1f98-4e62-4404-98aa-e657b73217de")
+	)
+	(wire
+		(pts
+			(xy 199.39 34.29) (xy 201.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c93f0d6-94e3-4387-8e65-235f30b5be6c")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f262b93-e463-4617-9a0b-73cba04babee")
+	)
+	(wire
+		(pts
+			(xy 276.86 50.8) (xy 274.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9344b5b4-ef38-4879-8691-c0e98ac23a0f")
+	)
+	(wire
+		(pts
+			(xy 199.39 34.29) (xy 196.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936f5d8e-f5cd-4610-8bc8-5e454a934956")
+	)
+	(wire
+		(pts
+			(xy 276.86 68.58) (xy 274.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f390f5-5f38-4248-b5ba-02865bb0001e")
+	)
+	(wire
+		(pts
+			(xy 173.99 128.27) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9416a45e-24b9-470f-b2ff-fce1dce9a0b9")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 45.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95dccb4c-0181-4863-bb52-3cb80a158a55")
+	)
+	(wire
+		(pts
+			(xy 199.39 21.59) (xy 196.85 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97951079-5a2f-42c8-9f9d-eb8437694c3e")
+	)
+	(wire
+		(pts
+			(xy 48.26 138.43) (xy 55.88 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9899765e-3f63-41d0-9b59-8d45bbd70149")
+	)
+	(polyline
+		(pts
+			(xy 82.55 127) (xy 143.51 127)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "9acae532-9ba0-470a-85ca-b8cf23058b74")
+	)
+	(wire
+		(pts
+			(xy 237.49 74.93) (xy 238.76 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b494a72-040f-4680-a936-4aa184861ddb")
+	)
+	(wire
+		(pts
+			(xy 48.26 106.68) (xy 52.07 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c22210e-e70a-4c12-9eb5-7766c0d639f6")
+	)
+	(wire
+		(pts
+			(xy 199.39 26.67) (xy 201.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d52d16d-b6c7-426e-956b-bfe43d727ed7")
+	)
+	(polyline
+		(pts
+			(xy 81.28 199.39) (xy 82.55 199.39)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "9d7d81df-22f2-4c52-a57c-b618eb65b614")
+	)
+	(wire
+		(pts
+			(xy 173.99 36.83) (xy 181.61 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db1a378-3ad2-41d4-a7b4-879cc042c0ee")
+	)
+	(polyline
+		(pts
+			(xy 105.41 11.43) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "9e7411c7-07a5-41b8-bc69-f37c2ff910e1")
+	)
+	(wire
+		(pts
+			(xy 72.39 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed403a9-a8b9-4712-bda8-d185d2f2b8bc")
+	)
+	(wire
+		(pts
+			(xy 190.5 130.81) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eea79bc-b5e4-41b5-a36f-5a3dea8e8a60")
+	)
+	(wire
+		(pts
+			(xy 55.88 189.23) (xy 53.34 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05dcce0-8591-44bd-b957-fe10b6e09371")
+	)
+	(wire
+		(pts
+			(xy 173.99 24.13) (xy 181.61 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1104679-addd-42c8-8b6b-870013c4b16e")
+	)
+	(wire
+		(pts
+			(xy 48.26 191.77) (xy 55.88 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d1c700-2792-4bf0-947a-c89758bf11db")
+	)
+	(wire
+		(pts
+			(xy 238.76 57.15) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d6c101-306f-42f4-9ceb-19cff9d458ed")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ef5177-e41e-4894-bda8-231e3ad363d9")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a419fb26-e3dc-4e89-8bb2-7fb37d3a35fe")
+	)
+	(wire
+		(pts
+			(xy 257.81 26.67) (xy 261.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f99eb4-986c-4efe-ae92-98e8f0766388")
+	)
+	(wire
+		(pts
+			(xy 260.35 68.58) (xy 264.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52b6f53-0f92-486c-a661-0e39a1700ffb")
+	)
+	(wire
+		(pts
+			(xy 46.99 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55c1a31-69a3-41b0-8b8d-f333befc4c5a")
+	)
+	(wire
+		(pts
+			(xy 234.95 24.13) (xy 242.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7537bdb-8772-43ec-87eb-be2cffef4a4c")
+	)
+	(wire
+		(pts
+			(xy 199.39 26.67) (xy 199.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a816f896-0a61-41b0-aa1a-30ae349f44cd")
+	)
+	(wire
+		(pts
+			(xy 48.26 163.83) (xy 55.88 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b9b3af-2dad-4e6a-b3b3-b6736adf9d70")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ba5afd-998a-4d18-9580-858b5c565bbe")
+	)
+	(wire
+		(pts
+			(xy 222.25 36.83) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aade455d-2723-40fb-9354-e458bcd31b4c")
+	)
+	(wire
+		(pts
+			(xy 236.22 53.34) (xy 236.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4eec92-1acf-41e3-9fb3-9c6853fdddb9")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf90b67-d067-4047-92fe-cbd234494f20")
+	)
+	(wire
+		(pts
+			(xy 269.24 71.12) (xy 276.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af692fef-f736-4d01-86d4-313414ed9645")
+	)
+	(wire
+		(pts
+			(xy 190.5 119.38) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0074fc8-d610-4301-b9db-d1efbbe07b9c")
+	)
+	(polyline
+		(pts
+			(xy 143.51 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "b2a4341b-22a4-4376-9ca0-203af2fae8fe")
+	)
+	(polyline
+		(pts
+			(xy 11.43 80.01) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "b2b7da43-0eef-4f3d-8ccc-fce97c113736")
+	)
+	(wire
+		(pts
+			(xy 242.57 36.83) (xy 246.38 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3733a7b-faa3-4cb5-89ef-a0294b7b4ec5")
+	)
+	(wire
+		(pts
+			(xy 191.77 36.83) (xy 199.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39e6e94-d8ba-4a05-b5d6-a098a8b806a2")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4df0e19-cc56-402c-aebf-356aa275a830")
+	)
+	(wire
+		(pts
+			(xy 156.21 63.5) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5075fcd-e476-4b57-a465-3edc9f99d097")
+	)
+	(wire
+		(pts
+			(xy 114.3 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b533c951-849c-4e15-9ebf-a5ac08528715")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b562b4d5-2dc7-47d8-89d5-16b7e3c8ec0c")
+	)
+	(wire
+		(pts
+			(xy 55.88 127) (xy 55.88 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b0f54b-47cb-4aff-bf21-0f6229a32ae7")
+	)
+	(wire
+		(pts
+			(xy 269.24 53.34) (xy 276.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6854d94-f78b-4bf6-932e-e4fc1f37a52b")
+	)
+	(polyline
+		(pts
+			(xy 82.55 114.3) (xy 82.55 199.39)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "b6ecd96f-fe13-4f50-8193-9fcf9be4c28d")
+	)
+	(wire
+		(pts
+			(xy 22.86 106.68) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b750018d-a734-4bcb-b896-ec5b0148553e")
+	)
+	(wire
+		(pts
+			(xy 274.32 29.21) (xy 274.32 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b785a264-61f8-4f88-be15-56c1cb835ca7")
+	)
+	(wire
+		(pts
+			(xy 55.88 151.13) (xy 59.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b846d483-f845-4431-b1c0-ba95b1d7a1c4")
+	)
+	(wire
+		(pts
+			(xy 242.57 24.13) (xy 246.38 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9f5829-67ca-408e-8b72-42c680baf98f")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2dabb2-f543-4447-be45-c26534a3ccde")
+	)
+	(wire
+		(pts
+			(xy 250.19 71.12) (xy 259.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4152dc-ce35-4836-9a0b-cd8ea672837d")
+	)
+	(wire
+		(pts
+			(xy 88.9 66.04) (xy 92.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be04e07d-e737-44c0-88f7-b560856b8916")
+	)
+	(wire
+		(pts
+			(xy 161.29 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf210b65-c490-4c42-b040-3d71967e6129")
+	)
+	(wire
+		(pts
+			(xy 182.88 130.81) (xy 190.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd3744a-1a64-4a24-be28-8059a122a252")
+	)
+	(wire
+		(pts
+			(xy 276.86 57.15) (xy 276.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13606c1-c8df-432a-8803-da399add4b67")
+	)
+	(wire
+		(pts
+			(xy 274.32 33.02) (xy 271.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c157ceda-665e-431b-a1d9-6e85965636f9")
+	)
+	(wire
+		(pts
+			(xy 55.88 191.77) (xy 55.88 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c232835f-fe32-401d-9f57-808a1a872e2f")
+	)
+	(wire
+		(pts
+			(xy 29.21 191.77) (xy 38.1 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c291453e-f48c-4a01-8364-107ee56fb4d9")
+	)
+	(polyline
+		(pts
+			(xy 105.41 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "c347e785-bd8a-4e01-b3c4-1d7a4875ff4f")
+	)
+	(wire
+		(pts
+			(xy 242.57 24.13) (xy 242.57 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c2032d-3a1f-4bdd-ad0d-a163e0be9668")
+	)
+	(wire
+		(pts
+			(xy 55.88 148.59) (xy 53.34 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4a9c7e-2aa7-4eac-9584-3bc5b013546e")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca59228a-055b-45a8-8861-54454986c4b9")
+	)
+	(wire
+		(pts
+			(xy 29.21 151.13) (xy 38.1 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5f6b3f-71d1-4f8a-bcd7-f07473aef0e1")
+	)
+	(wire
+		(pts
+			(xy 219.71 50.8) (xy 223.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca667ad9-bb37-4753-b5da-9acb0ae087a3")
+	)
+	(wire
+		(pts
+			(xy 222.25 24.13) (xy 224.79 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0c7ec7-0699-469d-ba25-022723fedce5")
+	)
+	(wire
+		(pts
+			(xy 226.06 21.59) (xy 229.87 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8dbf38-1266-42fd-86f4-939a4c71850d")
+	)
+	(wire
+		(pts
+			(xy 182.88 119.38) (xy 190.5 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd52f63b-8d31-43f9-906d-7b7dc244f281")
+	)
+	(wire
+		(pts
+			(xy 50.8 25.4) (xy 80.01 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf363f49-660a-4664-b038-7bfdc8b9ebf4")
+	)
+	(wire
+		(pts
+			(xy 29.21 177.8) (xy 38.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdb093b-71cf-4746-9e14-d0a50610cfe2")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 55.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b2cb7b-7661-4a2c-ba21-3711dd346e55")
+	)
+	(polyline
+		(pts
+			(xy 82.55 80.01) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "d3016148-ae12-469d-b149-fd6cf53f07a2")
+	)
+	(wire
+		(pts
+			(xy 39.37 175.26) (xy 43.18 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97ee995-ddfb-47d8-b582-8394ae1de77d")
+	)
+	(wire
+		(pts
+			(xy 237.49 68.58) (xy 234.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc856231-f1c4-4a0d-ae65-8425eca41de2")
+	)
+	(wire
+		(pts
+			(xy 276.86 53.34) (xy 276.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de33532a-f167-4cf6-b8b6-145a19d426ed")
+	)
+	(wire
+		(pts
+			(xy 143.51 25.4) (xy 143.51 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb9c527-08a5-4804-af09-4fc2c0da7949")
+	)
+	(wire
+		(pts
+			(xy 276.86 78.74) (xy 276.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1bb391-7c0d-41e3-9ec5-86a7b809de89")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc4baf6-521c-45d3-a89b-fb5972ba1cf3")
+	)
+	(wire
+		(pts
+			(xy 190.5 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e037ad53-f6ad-466c-afaf-7cd33b9c635d")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 177.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e7b6b2-2d35-4d12-88d8-ff6dce0cb735")
+	)
+	(wire
+		(pts
+			(xy 55.88 177.8) (xy 59.69 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39b2d7d-ea2a-4507-9d74-0c21067ad9d4")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 44.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44a7941-96dc-4862-90fc-d580d57d632b")
+	)
+	(wire
+		(pts
+			(xy 190.5 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6226fe3-b47e-405d-9cb8-8a986c2aa44e")
+	)
+	(polyline
+		(pts
+			(xy 143.51 127) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 8 10 1)
+		)
+		(uuid "e6b1d26e-4310-4065-bebd-028992d4812d")
+	)
+	(wire
+		(pts
+			(xy 29.21 127) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7714b40-fd18-4335-943b-6a05da2032d3")
+	)
+	(wire
+		(pts
+			(xy 229.87 71.12) (xy 237.49 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ed5d23-fdb8-448f-8566-713301d63f74")
+	)
+	(wire
+		(pts
+			(xy 199.39 24.13) (xy 199.39 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83ff640-8b1b-4761-849d-73433faaf618")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafc6de1-4578-48d0-a0ca-9b3f2652cc09")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4d84b2-33de-4e6e-91fa-efdfdbeb107e")
+	)
+	(wire
+		(pts
+			(xy 55.88 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6432d3-523e-4a6f-b419-7a2e2d59f739")
+	)
+	(wire
+		(pts
+			(xy 55.88 138.43) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf126c5-1251-4d4c-9cec-d1c21c608735")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 181.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed51420d-17d2-4cd9-9115-111a342fd44a")
+	)
+	(wire
+		(pts
+			(xy 190.5 100.33) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc6d966-8b8d-4947-a459-3b6e2d380db8")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20036e3-b14b-4f78-bf74-d185869289e6")
+	)
+	(wire
+		(pts
+			(xy 25.4 30.48) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f0aa60-0e7b-48d1-8321-e41e3f24c5de")
+	)
+	(wire
+		(pts
+			(xy 55.88 151.13) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa40ca9b-4e92-42e2-8b14-3e400bfdd5e7")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd252687-738a-4061-a0a6-3a336ae524fe")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd35b705-5dfb-464e-b2ee-2d6c5189d18a")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 40.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3f8237-9daa-4b02-be1e-56b18c98ac6c")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 194.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff81a68f-f615-4486-824b-278be72ced2c")
+	)
+	(text_box "KEY16,KEY16相连的22R电阻\n需要在下载之后再进行焊接，\n否则信号波形无法达到通讯要求\n会导致串口通信不上\nR15 R16"
+		(exclude_from_sim no)
+		(at 83.82 129.54 0)
+		(size 34.29 19.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 232 24 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "75555db6-2697-4174-98c1-7e52f1a3632f")
+	)
+	(hierarchical_label "MID-HAND"
+		(shape input)
+		(at 201.93 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "037c2511-ed46-46f7-92a5-ac5a0fa21cd5")
+	)
+	(hierarchical_label "KEY19"
+		(shape input)
+		(at 95.25 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03a9018a-1690-4fb1-95e6-c5246659d2fb")
+	)
+	(hierarchical_label "MID-FORW"
+		(shape input)
+		(at 246.38 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08f6e61f-3fbc-4c9f-a5b2-a3efe0897e77")
+	)
+	(hierarchical_label "KEY7"
+		(shape input)
+		(at 67.31 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b950f6f-383d-44a9-a72c-ab4859ccbd8b")
+	)
+	(hierarchical_label "KEY29"
+		(shape input)
+		(at 29.21 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dbca801-f3b3-4f5a-806a-c213868b527e")
+	)
+	(hierarchical_label "KEY1"
+		(shape input)
+		(at 173.99 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "116d9aab-66ae-4f4b-856a-46de8166e201")
+	)
+	(hierarchical_label "PINKEYKEY-FOWORD"
+		(shape input)
+		(at 269.24 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13108eff-6cfa-4a6b-8d0b-56faf490c942")
+	)
+	(hierarchical_label "KEY14"
+		(shape input)
+		(at 250.19 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13331745-d16e-4134-9de3-4c521983d6aa")
+	)
+	(hierarchical_label "MAD-KEY"
+		(shape input)
+		(at 125.73 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ba6076-fc73-4bfa-8bfd-b59b7a346067")
+	)
+	(hierarchical_label "TDC-RV2"
+		(shape input)
+		(at 80.01 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27e1d58e-38df-431c-9659-7f33f0712e49")
+	)
+	(hierarchical_label "KEY24"
+		(shape input)
+		(at 161.29 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2870fff5-b700-4303-a082-72ec3c827fb6")
+	)
+	(hierarchical_label "KEY17"
+		(shape input)
+		(at 29.21 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29fb4fd8-d486-44d4-9204-d2be91cbae4d")
+	)
+	(hierarchical_label "PINKEY-AHEAD"
+		(shape input)
+		(at 238.76 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e97bc02-cb51-46a1-83bc-75267a04b8b3")
+	)
+	(hierarchical_label "ROW-KEY1"
+		(shape input)
+		(at 147.32 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36c9ff28-6d95-4eb8-abe8-9664b0917af6")
+	)
+	(hierarchical_label "BANKEY-1-1"
+		(shape input)
+		(at 59.69 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39f554ba-a0df-440b-88c0-f7633a11e4ce")
+	)
+	(hierarchical_label "BANKEY-2-1"
+		(shape input)
+		(at 59.69 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ccf0365-3ebc-4a43-976a-8125272b4c3f")
+	)
+	(hierarchical_label "MAD-LEFT"
+		(shape input)
+		(at 48.26 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3de95dd5-010a-4119-8097-9f4b1f648e26")
+	)
+	(hierarchical_label "BANKEY-4-1"
+		(shape input)
+		(at 52.07 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45c8c659-eab0-4da2-b12e-35bf6617ca04")
+	)
+	(hierarchical_label "BANKEY-5-1"
+		(shape input)
+		(at 194.31 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46d568fa-310a-45b4-aba2-50e6ee9ca278")
+	)
+	(hierarchical_label "MAD-HAND"
+		(shape input)
+		(at 49.53 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4af650b9-4c84-4bc4-9e06-2cf450d2ac26")
+	)
+	(hierarchical_label "ADC2"
+		(shape input)
+		(at 25.4 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b8f42b9-5e0e-4e5c-a029-2424da89bf7f")
+	)
+	(hierarchical_label "BANKEY-3-2"
+		(shape input)
+		(at 59.69 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f7b78dd-892d-42fd-96c7-534b3502e3f5")
+	)
+	(hierarchical_label "KEY9"
+		(shape input)
+		(at 100.33 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "537956c7-a1ee-4988-8d99-34a2d5b6c4b2")
+	)
+	(hierarchical_label "KEY2"
+		(shape input)
+		(at 222.25 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56b5c3a3-cbca-4ff3-806a-0b34c73fe10f")
+	)
+	(hierarchical_label "KEY21"
+		(shape input)
+		(at 22.86 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5725d603-0e11-4bb2-a3f9-5a219bf67381")
+	)
+	(hierarchical_label "KEY3"
+		(shape input)
+		(at 222.25 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fb29fdc-c610-4da0-bcdc-c84fb49acc93")
+	)
+	(hierarchical_label "BANKEY-5-2"
+		(shape input)
+		(at 194.31 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "601b9e69-ac8c-415c-9702-d1a3d562b189")
+	)
+	(hierarchical_label "KEY12"
+		(shape input)
+		(at 213.36 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62f3a4bd-d1c0-4bcf-a9a6-f74e8d63bc24")
+	)
+	(hierarchical_label "BOTTOM-KEY"
+		(shape input)
+		(at 181.61 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ed5779e-b035-429b-abc5-aabee99859b6")
+	)
+	(hierarchical_label "KEY5"
+		(shape input)
+		(at 25.4 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "741165ec-0cc2-4a02-8144-9168929131a0")
+	)
+	(hierarchical_label "RV-TERNEL"
+		(shape input)
+		(at 80.01 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78f65c33-7ee3-4044-aaed-97f9d7fdb59c")
+	)
+	(hierarchical_label "KEY11"
+		(shape input)
+		(at 213.36 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "825e11f1-f186-4757-bf97-8ca08a33ff8d")
+	)
+	(hierarchical_label "TDC-KEY1"
+		(shape input)
+		(at 147.32 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "892ed30e-a4c9-4812-a6f8-95df3d7986ff")
+	)
+	(hierarchical_label "KEY20"
+		(shape input)
+		(at 95.25 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "954e03c9-4248-4d21-ac85-e885263648c9")
+	)
+	(hierarchical_label "MID-RIGHT"
+		(shape input)
+		(at 246.38 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99e180e0-3829-4703-aaba-e2457a9e1d5a")
+	)
+	(hierarchical_label "BANKEY-3-1"
+		(shape input)
+		(at 59.69 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a80a7da-6413-4d00-98e8-2eb8000e665c")
+	)
+	(hierarchical_label "KEY10"
+		(shape input)
+		(at 156.21 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9eb06674-73f8-458a-92c2-478d44505259")
+	)
+	(hierarchical_label "PENKEY-2-1"
+		(shape input)
+		(at 124.46 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f163aa0-a52a-4773-a4ce-c56fee112d91")
+	)
+	(hierarchical_label "KEY18"
+		(shape input)
+		(at 29.21 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0f0f1c8-df33-4a8a-a2d8-bcbc57785975")
+	)
+	(hierarchical_label "KEY16"
+		(shape input)
+		(at 29.21 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a183329c-6398-4b49-9dd4-2d52c977573b")
+	)
+	(hierarchical_label "PENKEY-1-1"
+		(shape input)
+		(at 124.46 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3a7d32b-cffa-4e89-bcc6-120e41f4bfef")
+	)
+	(hierarchical_label "ADC1"
+		(shape input)
+		(at 25.4 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5d1550e-10a8-4d6f-9940-0fd33c3991cb")
+	)
+	(hierarchical_label "KEY27"
+		(shape input)
+		(at 173.99 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7efe2da-39a1-4179-b625-0446a5123c4c")
+	)
+	(hierarchical_label "TDC-RV1"
+		(shape input)
+		(at 80.01 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa85b34e-cdf3-451e-8fc2-3e219fe0a1e3")
+	)
+	(hierarchical_label "BANKEY-4-2"
+		(shape input)
+		(at 52.07 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac9fda4e-4d22-4637-b845-f4f998a0c0cd")
+	)
+	(hierarchical_label "KEY23"
+		(shape input)
+		(at 161.29 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae5a8148-b538-4ad4-8241-fe396fee2999")
+	)
+	(hierarchical_label "KEY25"
+		(shape input)
+		(at 115.57 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8c3dd86-586a-4a62-9a37-99fb229038bd")
+	)
+	(hierarchical_label "MID-KEY"
+		(shape input)
+		(at 271.78 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9ea95c4-6275-401f-af28-129999bbcee2")
+	)
+	(hierarchical_label "KEY13"
+		(shape input)
+		(at 250.19 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf1ff8f1-a9bb-45ef-8396-7ecd63ca9b50")
+	)
+	(hierarchical_label "KEY6"
+		(shape input)
+		(at 25.4 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfe47f1b-36b5-4b0f-8a05-2e03d2589b01")
+	)
+	(hierarchical_label "MAD-RIGHT"
+		(shape input)
+		(at 92.71 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c54ade03-cbfe-4cbb-95d3-57154a46d671")
+	)
+	(hierarchical_label "KEY4"
+		(shape input)
+		(at 252.73 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5da6538-92c7-465a-a7c6-de3d16ce59bd")
+	)
+	(hierarchical_label "PINKEY-FOWORD"
+		(shape input)
+		(at 238.76 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6f5b933-ba46-4a2d-95b4-ab3305cd3837")
+	)
+	(hierarchical_label "ADC0"
+		(shape input)
+		(at 25.4 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca8286ca-e5e5-4885-94ea-d262f73c7c13")
+	)
+	(hierarchical_label "KEY28"
+		(shape input)
+		(at 29.21 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d66fea1a-19d5-46d2-9d69-c3e92cd079ea")
+	)
+	(hierarchical_label "PINKEYKEY-AHEAD"
+		(shape input)
+		(at 275.59 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8975e23-6942-45c4-bf8f-734acdc27982")
+	)
+	(hierarchical_label "ROW-RV1"
+		(shape input)
+		(at 80.01 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de401716-90ce-4ec4-8016-216522558802")
+	)
+	(hierarchical_label "KEY8"
+		(shape input)
+		(at 67.31 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "deaf7377-302a-4a09-8158-1dc338331949")
+	)
+	(hierarchical_label "MAD-FORW"
+		(shape input)
+		(at 91.44 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7b43d36-d493-4b21-bd22-e9cd50ddd75c")
+	)
+	(hierarchical_label "PINKEYKEYKEY-FOWORD"
+		(shape input)
+		(at 194.31 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7b609ce-faf5-4b64-842c-072dfa9eebb4")
+	)
+	(hierarchical_label "MID-LEFT"
+		(shape input)
+		(at 201.93 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecaafdfe-1fcd-44a1-8f43-6ff5552b7736")
+	)
+	(hierarchical_label "KEY15"
+		(shape input)
+		(at 29.21 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edbdee67-f51b-4ae9-8703-72d3708893cf")
+	)
+	(hierarchical_label "PINKEYKEYKEY-AHEAD"
+		(shape input)
+		(at 194.31 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ede4717a-dd59-4aae-8b40-182b65b89888")
+	)
+	(hierarchical_label "BANKEY-2-2"
+		(shape input)
+		(at 59.69 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef0486a6-01f5-4cf7-8c8c-6f844a843db0")
+	)
+	(hierarchical_label "KEY26"
+		(shape input)
+		(at 115.57 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f39e2bf3-95c0-4025-800c-4d9a0889103b")
+	)
+	(hierarchical_label "BANKEY-1-2"
+		(shape input)
+		(at 59.69 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8654299-7f12-441c-90a2-e4329e738b84")
+	)
+	(hierarchical_label "KEY22"
+		(shape input)
+		(at 22.86 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f98f10f2-a12d-4203-bc9b-2125a314b22c")
+	)
+	(hierarchical_label "ADC3"
+		(shape input)
+		(at 25.4 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9cf090b-14a0-48b5-8fd3-49ef43b0a7ae")
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 264.16 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "007dba8e-d7e1-4658-a5e9-b0035d21116a")
+		(property "Reference" "R60"
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 264.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 245.745 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 245.745 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 264.16 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdca2e3d-8e64-482f-8abe-9bd07bd632f7")
+		)
+		(pin "2"
+			(uuid "9690e362-bbe7-4446-8049-58b8c49f2e86")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 186.69 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b15e2a-c305-4ef9-82d4-ea405aa04ae4")
+		(property "Reference" "R47"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 168.275 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 168.275 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 186.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9e1e7c2-c47c-48a8-b579-8bc2ce7710fb")
+		)
+		(pin "2"
+			(uuid "5ab9fb22-7e4e-4bdb-baa6-7a0231ff9712")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 229.87 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02b4617b-4394-4934-bda8-d3dac6d5e040")
+		(property "Reference" "R54"
+			(at 229.87 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 229.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 211.455 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 211.455 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 229.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f79361c0-8f2e-4eb4-a8df-b92b36a4d938")
+		)
+		(pin "2"
+			(uuid "d9a5a22b-f747-41b3-88e9-205de8f17d51")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 182.88 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a896928-51ab-4049-ba7c-6d3175789d4f")
+		(property "Reference" "#PWR069"
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 182.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dba76ea-ba18-4ca6-af66-638f86285cd0")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 43.18 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d24f31a-4f87-4b5c-8629-2074a351cf28")
+		(property "Reference" "R15"
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 24.765 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 24.765 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8fbf85f-9686-43c4-ab1c-688434001b39")
+		)
+		(pin "2"
+			(uuid "9d52ba25-9c7a-493e-a328-e9302b450478")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 39.37 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e8870db-adc3-4df6-af4f-2cf9809ad474")
+		(property "Reference" "R12"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 20.955 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 20.955 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc89dc2b-b7ce-429a-b6c5-5331608c90ed")
+		)
+		(pin "2"
+			(uuid "070adbc2-7648-4659-bc8e-e44b26f8c4b7")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f30973f-0506-4d29-856a-d028389cec11")
+		(property "Reference" "#PWR080"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33572b27-6e10-407d-953a-d2d2ad642443")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10540e52-55de-40a2-aa41-f4b9058749b1")
+		(property "Reference" "#PWR073"
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00fa2234-2e7d-45bf-96a9-88737e246166")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 107.95 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12665f35-0e20-4db0-a051-c3e9dbcf9f44")
+		(property "Reference" "R34"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 107.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 89.535 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 89.535 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 107.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50745bc2-0da6-4552-9671-2ed500942e00")
+		)
+		(pin "2"
+			(uuid "42642e11-a611-444a-9240-0adac32744c8")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 113.03 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14987e06-80bd-40d7-8d42-36e593235a1c")
+		(property "Reference" "R38"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 94.615 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 94.615 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62449aa3-e9f7-4ad4-8b74-308dd82ec331")
+		)
+		(pin "2"
+			(uuid "19abb804-8adb-47da-aff5-669f50708dee")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 53.34 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e00669-3af0-44d1-bd9d-2f613a3f2935")
+		(property "Reference" "R28"
+			(at 53.34 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 53.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 71.755 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 71.755 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 53.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91c507c-2680-4036-a543-149a625a3a3c")
+		)
+		(pin "2"
+			(uuid "9c2d8a85-ef0f-4281-aa21-f22d90100cb0")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 109.22 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16314123-56f5-45f9-b486-c75e8aa91d32")
+		(property "Reference" "R36"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 90.805 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 90.805 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 109.22 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e55621a7-0cdc-410b-90e5-bdbf1a179dfc")
+		)
+		(pin "2"
+			(uuid "62bced38-cf84-48e2-8a3a-ada0d209caae")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 34.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16e05cc0-ccc2-499e-87bc-d049ec73832a")
+		(property "Reference" "R6"
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 15.875 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 15.875 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fac0c5c8-2310-475c-b5c9-165487a2b1dc")
+		)
+		(pin "2"
+			(uuid "a4a6be9c-4cb2-4ca6-9bb1-3da001ff9626")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 182.88 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1a363f7b-f1c5-4924-bf31-47539ecec8a5")
+		(property "Reference" "R71"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 164.465 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 164.465 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 182.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da1ef060-4e4d-466f-a271-9627c2ba5f19")
+		)
+		(pin "2"
+			(uuid "05afe943-0f70-4abe-9e63-cb2f30744aa1")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 219.71 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e700255-f0de-43cd-9266-1615606bce79")
+		(property "Reference" "#PWR070"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 215.9 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "293c0e0e-f43f-493c-b66b-4ab2c878665b")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 266.7 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9bd6cc-587d-4fca-a459-9e2f9fa28316")
+		(property "Reference" "R61"
+			(at 266.7 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 266.7 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 248.285 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 248.285 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 266.7 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4584c89f-cbe4-44c7-8682-3809f01bb1ff")
+		)
+		(pin "2"
+			(uuid "891fb949-9df1-4906-8ffc-6afbb6918be1")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 165.1 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eceb815-4574-47ed-9781-d14606aba5ea")
+		(property "Reference" "R44"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 146.685 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 146.685 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 165.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a692eedc-3e2c-48a6-9149-972523ead734")
+		)
+		(pin "2"
+			(uuid "e436fbe3-7695-4354-9105-79042e4cb334")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1edaf390-b0e5-483c-abc1-3eff925a0a6d")
+		(property "Reference" "#PWR077"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2fa6ea0-f7dc-4d28-b7b9-accfa2ccd629")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 228.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fdd47f8-ac76-42c6-831f-948f2b8d2aaa")
+		(property "Reference" "R52"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 228.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 210.185 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 210.185 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77460f43-59cd-4e09-84d9-997112609ff7")
+		)
+		(pin "2"
+			(uuid "f5ca310f-8fb5-4bc2-a76f-efe920c8020b")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 30.48 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22596662-93f6-4e32-b151-6db1c7ad1ed3")
+		(property "Reference" "#PWR050"
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 26.67 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67b72661-9ac1-45fb-9e64-71f2c589f58a")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239d0fd9-fd4f-45f7-8f6a-d88fcd0890c0")
+		(property "Reference" "#PWR054"
+			(at 43.18 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "433ab8fb-7463-4c3f-80bb-7c9c972c53ac")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 43.18 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "241de165-dea8-4097-9309-693278c4a128")
+		(property "Reference" "R20"
+			(at 43.18 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 43.18 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 24.765 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 24.765 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 43.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61a30ce4-7b12-4870-9254-1cc3d16bd577")
+		)
+		(pin "2"
+			(uuid "466f30da-b3b2-40ea-b6d9-c1143888384c")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269fa9f1-c63f-4d35-bd66-66fe48e10fa5")
+		(property "Reference" "#PWR060"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f48298bf-24a9-493a-ac04-5ac59c0e19f3")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 34.29 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26aaeba2-25cc-43e7-9976-d5f327884c27")
+		(property "Reference" "R7"
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 34.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 15.875 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 15.875 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 34.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "479f9c59-3ffc-4808-91f4-fc501d3febe5")
+		)
+		(pin "2"
+			(uuid "eb97f012-c1fc-4444-86d1-de8ee14c36d1")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 224.79 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27040ea1-4b00-4014-99dc-fdc23f252e98")
+		(property "Reference" "R51"
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 206.375 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 206.375 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74caa03e-9128-4385-ab5b-27597152cb8c")
+		)
+		(pin "2"
+			(uuid "11f79560-02ad-4c68-9921-15732fe30646")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 30.48 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aa93227-0319-4061-a5ed-6b593751109c")
+		(property "Reference" "#PWR052"
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 26.67 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 30.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a691680-4946-466b-be79-07fc12c052d2")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 48.26 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ca2845b-2b64-4a4c-b684-71695d75c0eb")
+		(property "Reference" "R24"
+			(at 48.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 29.845 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 29.845 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76de25d-5465-4a2f-99dd-c8689ec93aef")
+		)
+		(pin "2"
+			(uuid "25fc5285-8b12-457d-8404-3b67d8dfadba")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 177.8 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e974cc-0c0a-4eb5-b319-00de84a3b7b4")
+		(property "Reference" "R64"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 159.385 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 159.385 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d38b1f-bee5-4d2b-a42a-80495e284cee")
+		)
+		(pin "2"
+			(uuid "b6d40afc-b411-4127-a330-fe62ea8c64ce")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35620411-09be-4d96-a269-8c079648d327")
+		(property "Reference" "#PWR078"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2efc7b6-a9b9-40c2-90b1-cb259142d4e3")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 48.26 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f8c9ecd-b037-4d55-a9d0-10d3751903be")
+		(property "Reference" "R22"
+			(at 48.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 29.845 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 29.845 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d4f102a-da1c-4b9a-94df-b3e1b340299a")
+		)
+		(pin "2"
+			(uuid "8f25da10-0c00-4233-9ec7-0007ea7e5f0a")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 229.87 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fca8aa6-0a9f-4c02-9907-32352a98aee6")
+		(property "Reference" "R55"
+			(at 229.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 229.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 211.455 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 211.455 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 229.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad114ee7-7f46-4bc5-8354-7d8b7dbdf954")
+		)
+		(pin "2"
+			(uuid "e5260dee-9f5f-4a58-8d3b-f39eb3b2cc68")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 81.28 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "458943a1-bf4f-4774-8e69-8f7fb1857c64")
+		(property "Reference" "R33"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 62.865 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 62.865 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3912c53-fc30-4d1e-9c0f-4a53f125d7a8")
+		)
+		(pin "2"
+			(uuid "d6773590-1281-4276-8804-d7a159597147")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 223.52 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a13e8b6-f68d-4afb-a7f8-50782dc1718f")
+		(property "Reference" "R50"
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 205.105 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 205.105 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8542a776-dae6-4240-89e5-92f48c12fd5f")
+		)
+		(pin "2"
+			(uuid "8de3c9f9-fa38-4466-9c32-0dffd60d534b")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 48.26 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b7faf11-ecd5-4823-837c-039e748488ec")
+		(property "Reference" "R25"
+			(at 48.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 29.845 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 29.845 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 48.26 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a5fe59-6581-4dc4-8d5b-e5f915be3ff8")
+		)
+		(pin "2"
+			(uuid "6ff9d047-0486-4901-b6b5-d83d0e9bdc2c")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 81.28 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dbd8042-736a-479c-87a8-c4ce4fad620b")
+		(property "Reference" "R32"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 62.865 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 62.865 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 81.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8563734b-c427-4c88-9b33-b29da72ae959")
+		)
+		(pin "2"
+			(uuid "291993fc-19cd-46fd-a8c4-6afbc01a269a")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 257.81 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e84be19-bf21-4b19-9b07-5dd99a138594")
+		(property "Reference" "#PWR074"
+			(at 261.62 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 257.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dfba09e-1cea-41a7-b68d-ccbd6c50c63f")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 40.64 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f210c4a-6fc6-4ea4-86d5-d51536da46c5")
+		(property "Reference" "R14"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 40.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 22.225 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 22.225 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 40.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccd2de68-ef89-479e-bf18-8658e44dc97d")
+		)
+		(pin "2"
+			(uuid "cfdc0c5e-f64c-402d-bd27-d61902956bb5")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "532aee8d-5b27-40f0-bd3f-63fafee9495e")
+		(property "Reference" "#PWR063"
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 100.33 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b7fdb08-8429-494c-a2df-8668af63b1a9")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ba3a5b-7ba0-456f-a993-3a9de9391683")
+		(property "Reference" "#PWR059"
+			(at 43.18 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3d9e5f-a862-468f-81d0-9dd98315bf7a")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 182.88 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "583bf792-16e4-435d-940c-6af4332a88ee")
+		(property "Reference" "R67"
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 164.465 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 164.465 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 182.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a781e4c1-695b-41fc-b868-9864590ad436")
+		)
+		(pin "2"
+			(uuid "6216868f-17b4-438a-b7f2-8db18a129a54")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 43.18 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e201d67-40fe-4eec-bc11-556f22de29e5")
+		(property "Reference" "R19"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 24.765 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 24.765 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90e7260b-714c-4de6-b5ef-0eb760aeb1e6")
+		)
+		(pin "2"
+			(uuid "fb8f4271-6825-45b1-ada7-81c0991f6a1e")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 105.41 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e94927a-457d-4f8a-af8e-0f09f5fe2a30")
+		(property "Reference" "#PWR064"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.6 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6e8ced3-9b03-47e1-8036-c2233c211ae8")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 191.77 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "608de716-cf22-4afb-9e6c-835ed0fe8138")
+		(property "Reference" "R49"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 191.77 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 173.355 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 173.355 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da15cf83-9e72-41cf-8af0-04e750e4829f")
+		)
+		(pin "2"
+			(uuid "d301d271-0730-4ced-82e9-fbbe38b05dbd")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 182.88 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e38b8b-5bca-4e8f-aa38-d4dc086efb67")
+		(property "Reference" "#PWR068"
+			(at 186.69 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 182.88 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada41f87-ca69-46cf-a249-1da24a5485a4")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 177.8 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "69c4995f-70b3-484c-853a-c54cca5ca87c")
+		(property "Reference" "R70"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 159.385 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 159.385 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 177.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ea26a7-a080-40c3-b41f-0112477575e9")
+		)
+		(pin "2"
+			(uuid "45d4af64-88c0-4283-98e7-5db706813164")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 269.24 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a2873ee-77fc-42ef-8402-40dc4d986306")
+		(property "Reference" "R63"
+			(at 269.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 269.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 250.825 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 250.825 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 269.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe3cf4db-c1ea-46e9-8a40-129011061324")
+		)
+		(pin "2"
+			(uuid "e2392577-9f27-443e-80ab-5e0cbc644c6e")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb82ffb-632d-4055-b1ec-0253388bcb48")
+		(property "Reference" "#PWR062"
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 100.33 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18d7365-0701-48cb-a0fb-8bad1278e2f4")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 127 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1ef73b-1985-4926-81bd-26d4d1236062")
+		(property "Reference" "#PWR065"
+			(at 130.81 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 22.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d89e7bb9-97ff-4214-bf9b-11128185bb75")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 161.29 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f60d328-32c2-4cc8-bdc7-e549c6c53629")
+		(property "Reference" "#PWR067"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "666657f3-442e-49b7-906f-8c618824fbfd")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 177.8 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fdc6eb6-a56c-4ede-8c15-058b6f015a78")
+		(property "Reference" "R66"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 159.385 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 159.385 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67014beb-aff8-4f4e-a106-8a0d38c7895a")
+		)
+		(pin "2"
+			(uuid "d2c0984c-8517-45a5-a7f6-f22c7e8a3784")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 43.18 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c0e85c-b82d-4f45-8fb8-8155970557b8")
+		(property "Reference" "R17"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 24.765 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 24.765 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 43.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3665b2a8-b6d9-4c93-a627-80091d7a90ec")
+		)
+		(pin "2"
+			(uuid "bf301c8f-ad14-44ea-826c-e0c5736920e7")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 170.18 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75fa2cce-9b6c-40c0-a91e-f521b7956eb5")
+		(property "Reference" "R45"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 151.765 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 151.765 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 170.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87978462-6bed-4359-87c8-c1fd135b94c8")
+		)
+		(pin "2"
+			(uuid "b7b557de-b73e-4fca-80a0-23b64cac2289")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7794de5a-4993-4716-bfcb-9ac20bce86c1")
+		(property "Reference" "#PWR055"
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbae5fc4-c4c5-453d-b724-6abd01ad1e3d")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 48.26 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "783c38bf-a82f-4d55-8d00-edae984ad361")
+		(property "Reference" "R26"
+			(at 48.26 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 29.845 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 29.845 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 48.26 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4016fe71-fcf4-4322-af92-717d6f0d18a6")
+		)
+		(pin "2"
+			(uuid "a1224d40-98fb-476e-9067-d0f742331d4e")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 113.03 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "794f8d48-e16a-4711-bf2b-f132657c372c")
+		(property "Reference" "R37"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 94.615 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 94.615 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00ddc915-ad41-4612-8a8d-9fed48d45fb9")
+		)
+		(pin "2"
+			(uuid "5a1ffb69-8fe4-4243-8c45-90788d122475")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 269.24 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7abf0755-a47a-4074-a0a2-55986aa384ca")
+		(property "Reference" "R62"
+			(at 269.24 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 269.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 250.825 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 250.825 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 269.24 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a44de14d-4230-457b-9dba-52e04b4837cb")
+		)
+		(pin "2"
+			(uuid "ab065ae7-dc2d-4700-9c13-1a50900ee3ce")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 182.88 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bbb2315-70d9-4244-9156-f4317a3aa0ee")
+		(property "Reference" "R65"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 164.465 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 164.465 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 182.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "617b6043-e2a7-4241-9490-b9a793f09049")
+		)
+		(pin "2"
+			(uuid "794d8bb4-0cf9-4e6b-9194-93133a73c511")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 43.18 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dbc0907-2e64-4fdc-96a1-ae088fe81ce5")
+		(property "Reference" "R18"
+			(at 43.18 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 24.765 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 24.765 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 43.18 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dc38aae-ee37-45d9-b5da-b780724e9f03")
+		)
+		(pin "2"
+			(uuid "bb14d95e-49c8-4844-8cfc-430c4352a34c")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 43.18 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3cdb04-9b30-4b74-b2b5-903bfd30317f")
+		(property "Reference" "R16"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 43.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 24.765 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 24.765 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "071b8091-1911-4a26-b4cb-0ddc1ea2f1b5")
+		)
+		(pin "2"
+			(uuid "9db97baa-9d4f-4cdf-b0f9-931906c0b152")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 177.8 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "83ac1679-aea3-4f2e-905d-78004806f461")
+		(property "Reference" "R68"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 159.385 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 159.385 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4839b41b-e737-4c43-93e9-f28867975b5c")
+		)
+		(pin "2"
+			(uuid "3e12e7ed-8efa-4388-8e15-4a83d1e773b8")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 234.95 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f98b4b-f56f-4d62-9e76-eed98e4a93e5")
+		(property "Reference" "R57"
+			(at 234.95 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 234.95 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 216.535 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 216.535 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 234.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d330c96-72da-43d9-8b78-d5f87212392f")
+		)
+		(pin "2"
+			(uuid "9b43fdc7-b94f-43d1-a06e-3d045ba1d274")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 234.95 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a196e99-6474-4b8d-87e7-fc70aee33635")
+		(property "Reference" "R56"
+			(at 234.95 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 234.95 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 216.535 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 216.535 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "531d984e-90dd-4d01-a248-fee7df3b0cce")
+		)
+		(pin "2"
+			(uuid "97d50148-3299-4c21-acc8-a58639554660")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 38.1 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d92dd62-0232-4cb7-bc58-1d809fb9d9a0")
+		(property "Reference" "R10"
+			(at 38.1 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 38.1 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 56.515 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 56.515 15.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "613b15ae-50ac-4d3c-b3df-5e3992fea092")
+		)
+		(pin "2"
+			(uuid "8eee89e4-163e-42a2-bf35-35cc826a804b")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 182.88 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "903c7b9a-a1d5-40ef-b827-5fa8c440494a")
+		(property "Reference" "R69"
+			(at 182.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 164.465 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 164.465 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e0898f1-9912-4b32-a8c0-91419b78f1bd")
+		)
+		(pin "2"
+			(uuid "57deea71-3fc5-4e36-9589-d7d32c5a51e4")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 127 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95149ae0-de79-4628-b267-6446e90756d3")
+		(property "Reference" "#PWR066"
+			(at 130.81 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de3c38ec-e747-426d-963c-dd43cf0e0907")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 260.35 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97c2abfd-e5c1-4f1b-b2a8-500f9efb40cf")
+		(property "Reference" "#PWR076"
+			(at 264.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd40e55a-dc14-499b-b264-250a9309f55c")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 191.77 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ae1b2d7-c266-4a21-9229-5a36e59a925b")
+		(property "Reference" "R48"
+			(at 191.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 191.77 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 173.355 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 173.355 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 191.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4abce5d5-ea18-40c2-aadc-30ccc73e0030")
+		)
+		(pin "2"
+			(uuid "8c55363a-49f7-4cf1-a94b-a24b9d087238")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 31.75 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e1de4b6-7258-4a86-8344-ae0811a48c67")
+		(property "Reference" "#PWR053"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 27.94 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 31.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0f7106e-3182-40b2-b229-4b51c01d13ad")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 39.37 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fa869a-f527-4111-9423-d88e99e2abb0")
+		(property "Reference" "R11"
+			(at 39.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 39.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 20.955 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 20.955 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4970effb-8ee4-49e3-a34c-30de8d34a105")
+		)
+		(pin "2"
+			(uuid "c1d17d40-d6d5-49a5-82fe-dec8733c979d")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a926bb46-87e5-4e65-86b4-d06e8f3b5bbe")
+		(property "Reference" "#PWR057"
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc15eb80-8948-42f9-a903-134d850f6b6e")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 260.35 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9bc1338-f44d-4fb8-8171-83e1cc52cd74")
+		(property "Reference" "#PWR075"
+			(at 264.16 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257dea47-06b6-4fb4-9f97-be75978428f0")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 186.69 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae4c5f6b-d9bc-4a91-902e-198eb49c0891")
+		(property "Reference" "R46"
+			(at 186.69 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 186.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 168.275 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 168.275 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 186.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a43902c-020a-411c-a28f-77b12bc1cdde")
+		)
+		(pin "2"
+			(uuid "8ecdeef1-3f8d-47dd-90ed-0d7e8d272a85")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.39 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae63c9a6-d7b7-4ec7-9f84-879420bcd08f")
+		(property "Reference" "#PWR061"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13b1f81e-ed8f-4d20-a1d0-f60d2593cf64")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 135.89 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01042de-902c-4ea0-8ae3-ad4ab98475cd")
+		(property "Reference" "R42"
+			(at 135.89 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 135.89 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 117.475 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 117.475 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 135.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8089426-2b8d-4660-a8dd-6842abc605c2")
+		)
+		(pin "2"
+			(uuid "dbc5e0d8-ce7d-4adb-b071-ee18b9beb2e8")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 130.81 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7c3e27c-61dd-42b1-800d-505caaf843dd")
+		(property "Reference" "R41"
+			(at 130.81 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 112.395 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 112.395 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 130.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc42d11a-ce9e-4a31-8c93-773ccefa2a53")
+		)
+		(pin "2"
+			(uuid "944fe137-6e87-4898-9a5d-26048bbd61c0")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 229.87 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5da1df-716a-46f7-aeb4-d02c4b2413c3")
+		(property "Reference" "R53"
+			(at 229.87 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 229.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 211.455 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 211.455 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 229.87 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20a500b-5e26-483e-bc87-c9f8bae66655")
+		)
+		(pin "2"
+			(uuid "9ca097ef-9860-4fd9-a6f5-bf2ae3398af6")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bca2e1f0-c05e-4af4-bc53-ecd56ef4c1eb")
+		(property "Reference" "#PWR079"
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4df4951f-a265-4139-8c65-42c5886c274d")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 34.29 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03dbc53-3f3e-4502-8cee-6d93bf2dd9ce")
+		(property "Reference" "R8"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 34.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 15.875 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 15.875 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 34.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f0c11b6-470f-43b5-a2d5-5a200f33fdbe")
+		)
+		(pin "2"
+			(uuid "f50d84ab-6673-49a0-9111-8edd16923fb9")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 220.98 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b3050e-5737-4dc0-83c7-f018f6de8974")
+		(property "Reference" "#PWR071"
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.17 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e935ad2-9b44-4276-ad07-4ddaa76966d2")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 60.96 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c89f9e12-7745-4393-84c0-99008995a8f8")
+		(property "Reference" "R29"
+			(at 60.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 79.375 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 79.375 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae0c0383-c003-46e9-86b7-41f01003f9fd")
+		)
+		(pin "2"
+			(uuid "32c0487e-1c9e-4f21-9545-dc28f526a6d1")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 48.26 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca229cb7-7bdd-4821-b4ab-5d20f393fd24")
+		(property "Reference" "R27"
+			(at 48.26 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 29.845 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 29.845 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 48.26 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c29465f2-a422-483e-984e-554f91ec1918")
+		)
+		(pin "2"
+			(uuid "ddcdc495-eacb-477b-b233-8e6241c16f20")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06ef2f7-38e5-49f8-afd0-1e516e06263f")
+		(property "Reference" "#PWR072"
+			(at 229.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6ff2da2-56e0-481d-9925-23508e9a7664")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 114.3 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0bf9d0b-b016-4117-9091-be91d9811df3")
+		(property "Reference" "R39"
+			(at 114.3 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 95.885 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 95.885 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71e4b24b-0d8a-4616-97a6-902e3618c5b8")
+		)
+		(pin "2"
+			(uuid "13cb5514-a8c5-473f-8351-6e92887f5bcd")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 35.56 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0ce03ff-454d-43a0-a9a8-f8f76741c55c")
+		(property "Reference" "R9"
+			(at 35.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 35.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 17.145 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 17.145 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a174a87d-62f6-45b4-b81f-586dc36c64d5")
+		)
+		(pin "2"
+			(uuid "06cd5873-c64f-4186-8601-4c15e752b508")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 264.16 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3197183-ab9e-475d-8e09-fc7fb3e934c6")
+		(property "Reference" "R59"
+			(at 264.16 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 245.745 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 245.745 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb2e0d59-0888-4321-8c6f-cec85d36a7df")
+		)
+		(pin "2"
+			(uuid "7861e938-e388-4da3-9d38-f723dfd51feb")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 130.81 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d41061e7-ac42-4a88-ae06-106ce514a2c1")
+		(property "Reference" "R40"
+			(at 130.81 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 130.81 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 112.395 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 112.395 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43d083c3-8dc8-4e05-96f6-30b856bef0ef")
+		)
+		(pin "2"
+			(uuid "a8b75c77-41ae-473d-a74b-e534841a9277")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 261.62 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd24d138-409d-4cc8-b912-757417c5e1f3")
+		(property "Reference" "R58"
+			(at 261.62 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 261.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 243.205 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 243.205 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f653e0f1-52e4-4d1b-a270-dd0535cfcac5")
+		)
+		(pin "2"
+			(uuid "38c2daf8-41db-44d0-8a06-706c4d06eb6d")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 76.2 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c777c9-3c6d-4c79-9b84-bd10e9aa36eb")
+		(property "Reference" "R31"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 57.785 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 57.785 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2478d5a-348a-4910-9cd1-8791f8157503")
+		)
+		(pin "2"
+			(uuid "5294b4c9-6cca-4fc1-bd46-760f00bb6af6")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 39.37 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3edd4e7-f82e-4691-910e-ab4f6facaccb")
+		(property "Reference" "R13"
+			(at 39.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 20.955 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 20.955 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e8da70-68e0-46a5-84ac-c938fe923f7c")
+		)
+		(pin "2"
+			(uuid "5ff162c0-e192-48ce-906a-bbe611e6d241")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 107.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7123b83-b46d-4ccb-941f-9bacf8dbc2bd")
+		(property "Reference" "R35"
+			(at 107.95 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 107.95 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 89.535 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 89.535 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 107.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38f4bbf0-5aaf-4a0a-af1a-778957450200")
+		)
+		(pin "2"
+			(uuid "dfb3314f-75ee-43a1-b954-a20d8488d3c5")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 135.89 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7429c18-2be3-440b-8ea6-22178d90446f")
+		(property "Reference" "R43"
+			(at 135.89 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 135.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 117.475 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 117.475 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 135.89 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06be6523-c375-4d5b-b195-acd2a00ad015")
+		)
+		(pin "2"
+			(uuid "f98f996f-4e87-414b-99fb-fd13802f5f42")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 30.48 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e98cb92d-fa9a-4f5f-84b2-76ba22e7e565")
+		(property "Reference" "#PWR051"
+			(at 34.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 26.67 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97921e0e-b308-4d58-bf8c-77cde0169b04")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 48.26 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebf619a7-9ee3-44f6-9129-a64c8193afaf")
+		(property "Reference" "R23"
+			(at 48.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 29.845 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 29.845 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4b62bf-d48c-426f-97ee-8bdc8387f0cf")
+		)
+		(pin "2"
+			(uuid "f06cd7ce-af6d-4563-b13c-fa94297321f5")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 76.2 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0080d75-95de-490f-ad79-10ee08d71d31")
+		(property "Reference" "R30"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 57.785 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 57.785 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f6a6cf-963c-4924-8786-66e00005c9b1")
+		)
+		(pin "2"
+			(uuid "f4f07275-bef3-477a-87b5-30491c71d739")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "self_no_source:0603R")
+		(at 45.72 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f130dd20-9b1d-4c10-ba55-cf167f47d609")
+		(property "Reference" "R21"
+			(at 45.72 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "self-mod:0603_R"
+			(at 64.135 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_21903.html"
+			(at 64.135 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eee57e65-f96e-45b8-bb31-3eb15c85a3fc")
+		)
+		(pin "2"
+			(uuid "8f6d2103-675f-4a0b-bae3-3cd3c65d93db")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb61ef67-b6e8-425a-b67d-21c36c34ecc5")
+		(property "Reference" "#PWR058"
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f393b909-b5c7-425f-a326-40714d2d3fb6")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdef3b4f-bbe4-4106-916f-2f65715faf67")
+		(property "Reference" "#PWR056"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.56 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b66b8f8c-4869-4a98-b856-b782af4f2887")
+		)
+		(instances
+			(project "ternel_box"
+				(path "/2543d023-780a-406b-b9a1-22ce5c76f161/559dcadd-a640-428c-b182-9cbdde9a7849"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
