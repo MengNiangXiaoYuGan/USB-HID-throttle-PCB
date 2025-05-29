@@ -1,4 +1,4 @@
-# USB-HID-throttle-model
+# USB-HID-throttle-PCB
 
 该仓库作为USB-HID-throttle项目的模型仓库,仓库内文件夹结构如下
 
